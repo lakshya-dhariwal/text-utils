@@ -54,7 +54,7 @@ function TextArea({ text, setText, setOutput }) {
           <br />
         </label>
         {"        "}
-        <span className="ml-3">
+        <span className="ml-3 d-flex">
           {minutes} min {len - minutes * 60}s Long
         </span>
       </div>
